@@ -1,0 +1,139 @@
+@media only screen
+and (min-width: 320px) and (max-width: 1080px) {
+    body {
+        width: 100%;
+        text-align: left;
+        background-color: white;
+    }
+
+    img {
+        display: block;
+        width: 100%;
+        border-radius: 4px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    input[type=text], input[type=number], textarea, select {
+        display: block;
+        width: 100%;
+        padding: 2%;
+        /*margin: auto;*/
+        border: 1px solid grey;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 1em;
+        text-transform: uppercase;
+        text-align: left;
+    }
+
+    input[type=submit] {
+        display: block;
+        width: 100%;
+        background-color: #005C94;
+        color: white;
+        padding: 2%;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: large;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (min-width: 1081px) and (max-width: 3000px) {
+    body {
+        position: absolute;
+        width: 40%;
+        left: 30%;
+        right: 30%;
+        text-align: left;
+        background-color: white;
+    }
+
+    img {
+        display: block;
+        width: 30%;
+        border-radius: 4px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    input[type=text], input[type=number], textarea, select {
+        display: block;
+        width: 100%;
+        padding: 2%;
+        /*margin: auto;*/
+        border: 1px solid grey;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 1em;
+        text-transform: uppercase;
+        text-align: left;
+    }
+
+    input[type=submit] {
+        display: block;
+        width: 100%;
+        background-color: #005C94;
+        color: white;
+        padding: 2%;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: large;
+        text-transform: uppercase;
+    }
+}
+
+h1 {
+    font-family: "Open Sans";
+    font-size: 23px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 23px;
+}
+
+h3, h2 {
+    font-family: "Open Sans";
+    font-size: 17px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 23px;
+}
+
+p {
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+blockquote {
+    font-family: "Open Sans";
+    font-size: 17px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+pre {
+    font-family: "Open Sans";
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+#logo {
+    width: 30%;
+}
+
+#text {
+    height: 300px;
+    width: 80%;
+}
